@@ -18,6 +18,9 @@ public class Home {
         int number = sc.nextInt();
         int c[] = new int[4];
         int z = 0;
+        if(number > 144){
+            System.out.println("В данном доме нет квартиры с таким номером");
+        }else
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 9; j++) {
                 for (int k = 0; k < 4; k++) {
